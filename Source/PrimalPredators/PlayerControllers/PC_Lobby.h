@@ -23,7 +23,6 @@ class PRIMALPREDATORS_API APC_Lobby : public APlayerController{
 		UPROPERTY(Replicated)
 		TArray<UClass*> Characters;
 
-
 	private:
 		GENERATED_BODY()
 
