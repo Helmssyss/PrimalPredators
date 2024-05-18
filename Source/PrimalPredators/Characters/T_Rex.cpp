@@ -320,9 +320,9 @@ void AT_Rex::BiteDamage(ABasePredator* Predator) {
 	const float mMaxHealth = Predator->GetMaxHealth();
 	float cCurrentHealth = Predator->GetCurrentHealth();
 	if (cCurrentHealth > 0) {
-			cCurrentHealth -= REX_DAMAGE;
-			Predator->SetCurrentHealth(cCurrentHealth);
-			Predator->OnHealthDelegate.Broadcast(cCurrentHealth, mMaxHealth);
+		cCurrentHealth -= REX_DAMAGE;
+		Predator->SetCurrentHealth(cCurrentHealth);
+		Predator->OnHealthDelegate.Broadcast(cCurrentHealth, mMaxHealth);
 	}
 	if (cCurrentHealth <= 0) {
 		Predator->GetMesh()->SetCollisionProfileName(FName("Ragdoll"));
