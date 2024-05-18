@@ -43,8 +43,6 @@ class PRIMALPREDATORS_API APC_Play : public APlayerController{
 		void ClientSetUI();
 		void ClientSetUI_Implementation();
 
-
-
 		UPROPERTY()
 		UW_Predator* PredatorWidget;
 
