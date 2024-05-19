@@ -33,3 +33,5 @@ Current Dinosaurs
   <img src="https://github.com/Helmssyss/PrimalPredators/assets/84701901/d400bc3f-0bd6-40b3-ac72-6f1a380e3836" width=70% height=40%>
   <img src="https://github.com/Helmssyss/PrimalPredators/assets/84701901/730db4e1-8618-4662-b348-e553549a58e7" width=70% height=50%>
 </div>
+
+I was inspired by while writing this system is The Isle and Primal Carnage:Extinction.
